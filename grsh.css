@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ body { font-family: "Poppins";}
+.header-top {margin-top: 30px;
+border-bottom: 1px solid #bcb6b6;}
+
+
+
+.header-top-logo {
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 229px;
+    margin-left: 120px; 
+    margin-bottom: 17.7px;
+    vertical-align: top;
+
+}
+.navigation { display: inline-block;
+font-size: 30px;}
+.button-log {display: inline-block;
+font-size: 30px;
+font-family: 'Poppins';
+padding-top: 8px;
+}
+.top-img {
+    display: inline-block;
+}
+.nav-item { display: inline-block;
+    margin-right: 50px;
+    
+}
+.sign-in { color: #ffff;
+background-color: #46A358;
+cursor: pointer;
+padding-top: 8px;
+padding-right: 17px;
+padding-bottom: 7px;
+padding-left: 48px;
+border-radius: 6px;
+margin-left: 250px;
+width: 100px;
+height: 35px;
+}
+.sign-in:hover {background-color: #30723d; }
+.nav-link:hover { 
+    background-color: #67c379;
+    color: white;
+    border-radius: 8px;
+}
+.nav-link {color: #3D3D3D;
+width: 45px;
+height: 20px;
+font-weight: 500;}
+
+.about {
+    background-color: #F5F5F580;
+    margin-top: 12px;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    margin-left: 120px;
+}
+
+.nazva {
+    padding-top: 68px;
+    margin-left: 43px;
+}
+.slogan {
+    width: 530px;
+    height: 140px;
+    font-size: 70px;
+    padding-left: 40px;
+    padding-top: 11px;
+    color: #3D3D3D;
+    font-weight: 900;
+    letter-spacing: 10%;
+}
+.Planet { color: #46A358;
+    
+}
+.опис {width: 557px;
+    height: 45px;
+padding-top: 18px;
+padding-left: 43px;
+color: #727272;
+font-weight: 400;}
+
+
+.shop-now {
+    background-color: #46A358;
+    color: #ffff;
+    width: 140px;
+height: 40px;
+border-radius: 6px;
+cursor: pointer;
+}
+.shop-now:hover { background-color: #30723d;}
+.button-shop {
+    padding-top: 44px;
+    padding-left: 41px;
+}
+.plant { display: inline-block;
+margin-right: 120px;
+width: 507px;
+height: 450px;
+margin-left: 93px;
+}
+.text {display: inline-block;}
