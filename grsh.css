@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
- body { font-family: "Poppins";}
+ body { font-family: "Poppins";
+ }
 .header-top {
     margin-top: 30px;
 border-bottom: 1px solid #bcb6b6;}
-
 
 
 .header-top-logo {
@@ -116,13 +116,20 @@ margin-right: 120px;
 }
 .text {display: inline-block;}
 .categories {
+    display: inline-block;
     margin-top: 171px;
 margin-left: 135px;
-color: #3D3D3D;}
+color: #3D3D3D;
+background-color: #FBFBFB;
+max-width: 310px;
+max-height: 774px;
+padding: 14px 189px 377px 18px
+
+}
 .nav-linkpl {color: #3D3D3D;}
 .nav-linkpl:hover {color: #46A358;
     line-height: 40px;
-    font-weight: 400;
+    font-weight: 700;
 opacity: 1;
 font-size: 15px;
 }
@@ -131,3 +138,120 @@ font-size: 15px;
     font-weight: 700;
 font-size: 18px;
 line-height: 16px;}
+.nav-plant{
+    line-height: 40px;
+}
+.sale{
+    margin-left: 106px;
+    display: flex;
+}
+
+.menu-categ{ display: inline-block; }
+.left-menu { display: inline-block;
+}
+.menu {
+margin-top: 171px; 
+margin-left: 50px;
+font-size: 15px;
+font-family: "Poppins";
+font-weight: 700;
+font-size: 15px;
+line-height: 16px;
+}
+.sorting{
+    color: #3D3D3D;
+    font-size: 15px;
+    font-weight: 400;
+}
+.ul-menu { display: flex;
+margin-right: 385px;}
+.nav-menu{
+    display: flex;
+}
+.menu-choice { 
+    display: inline-block;
+    white-space: nowrap;
+    margin-right: 37px;
+    color: #3D3D3D;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+.menu-choice:hover { 
+    
+    color: #3D3D3D;
+    font-size: 15px;
+    font-weight: 700;
+    color: #46A358;
+}
+
+
+.asortiment { 
+  display: flex;
+  flex-wrap: wrap;          
+  justify-content: flex-start; 
+  gap: 70px 33px;         
+  max-width: 1000px;        
+  margin-top: 31px; 
+  margin-left: 50px;        
+}
+
+.plant-photo { 
+  background-color: #F5F5F580;
+  max-width: 250px;   
+  max-height: 250px;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plant-photo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; 
+}
+.price{
+    color: #46A358;
+    font-size: 18px;
+    font-weight: 700;
+}
+.plant-name { 
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 6px;
+    margin-top: 12px;
+}
+.shop {
+    display: flex;
+}
+.stranica {
+    display: flex;
+    gap: 10px;
+    color: #3D3D3D;
+    justify-content: end;
+   
+}
+
+.number:hover {
+    background-color: #46A358;
+    color: white;
+    font-weight: 700;
+
+}
+.number{
+    color: #3D3D3D;
+    border: 1px solid #bcb6b6;
+    border-radius: 4px;
+    padding: 9px 12px 10px 13px;
+}
+     
+.stranica-nomer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 90px;
+}
+.pngwing {
+    max-width: 16px;
+    max-height: 16px;
+}
