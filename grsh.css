@@ -15,8 +15,11 @@ border-bottom: 1px solid #bcb6b6;}
     vertical-align: top;
 
 }
-.navigation { display: inline-block;
-font-size: 30px;}
+.navigation { 
+    display: inline-block;
+font-size: 30px;
+}
+
 .button-log {display: inline-block;
 font-size: 30px;
 font-family: 'Poppins';
@@ -27,7 +30,7 @@ padding-top: 8px;
 }
 .nav-item { display: inline-block;
     margin-right: 50px;
-    
+
 }
 .sign-in { color: #ffff;
 background-color: #46A358;
@@ -43,15 +46,16 @@ height: 35px;
 
 }
 .sign-in:hover {background-color: #30723d; }
-.nav-link:hover { 
+/* .nav-link:hover { 
     background-color: #67c379;
     color: white;
     border-radius: 8px;
-}
+} */
 .nav-link {color: #3D3D3D;
 font-size: 16px;
 max-height: 20px;
-font-weight: 500;}
+font-weight: 500;
+width: 100px;}
 
 .about {
     background-color: #F5F5F580;
@@ -351,3 +355,79 @@ margin-bottom: 14px;
 }
 .o-chem{
 margin-left: 15px;}
+
+.sub-navigation-link{
+    color: #3D3D3D;
+    font-size: 16px;
+    padding-left: 14px;
+   
+}
+.nav-item{
+     position: relative;  
+}
+.nav-item:hover .nav-link{
+      border-bottom: 3px solid #46A358;
+   text-shadow: 0.5px 0px 0px; 
+   /* font-weight: bold;
+   content: "";
+   position: absolute;
+   bottom: 0;
+   background-color:#46A358;
+   height: 3px;
+   width: 100%; */
+}
+
+.sub-navigation{
+    position: absolute;
+    display: none;
+    padding-top: 37px;
+   background-clip: content-box;
+}
+.nav-item:hover .sub-navigation{
+    display: block;
+    background-color: #EDF6EE;
+color: #3D3D3D;
+width: 188px;
+height: 165px;
+}
+ .more, .sub-navigation-link:hover{
+    color:#30723d;
+}
+.more{   
+    display: inline-block;
+    margin-left: 89px;
+    font-size: 16px;
+}
+ .sub-navigation2{
+     position: absolute;
+  left: 100%; 
+  display: none;
+  background-color: #EDF6EE;
+    top: 0;
+   padding-left: 20px;
+   background-clip: content-box;
+  
+}
+
+.sub-navigation-link-priming:hover{
+    color:#30723d;
+}
+.sub-navigation-link-priming{
+    padding-left: 14px;
+}
+
+ .sub-navigation-item:hover .sub-navigation2 {
+  display: block; 
+  background-color: #EDF6EE;
+color: #3D3D3D;
+width: 188px;
+height: 165px;}
+
+ .sub-navigation-item{
+    position: relative;
+} 
+ .sub-navigation-link-priming{
+    color: #3D3D3D;
+    font-size: 16px;
+ }
+ 
