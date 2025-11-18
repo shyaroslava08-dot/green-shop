@@ -2,12 +2,17 @@
  body { font-family: "Poppins";
  }
 .header-top {
+    
     margin-top: 30px;
 border-bottom: 1px solid #bcb6b6;}
+.header{
+display: flex;
+    justify-content: center;
 
+}
 
 .header-top-logo {
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 30px;
     margin-right: 229px;
     margin-left: 120px; 
@@ -58,10 +63,15 @@ font-weight: 500;
 width: 100px;}
 
 .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #F5F5F580;
     margin-top: 12px;
     font-family: 'Poppins', sans-serif;
     margin-left: 120px;
+    /* width: 100%;
+    max-width: 1250px ; */
 }
 
 .nazva {
@@ -80,8 +90,7 @@ width: 100px;}
     letter-spacing: 10%;
     
 }
-.Planet { color: #46A358;
-    
+.Planet { color: #46A358; 
 }
 .description {
     max-width: 557px;
@@ -99,10 +108,9 @@ font-weight: 400;
     background-color: #46A358;
     color: #ffff;
     width: 140px;
-
-border-radius: 6px;
-cursor: pointer;
-padding: 11px 27px 9px 26px;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 11px 27px 9px 26px;
 
 }
 .shop-now1:hover,
@@ -119,7 +127,7 @@ max-height: 450px;
 margin-left: 93px;
 margin-right: 120px;
 }
-.text {display: inline-block;}
+/* .text {display: inline-block;} */
 .categories {
   
     display: inline-block;
@@ -183,6 +191,10 @@ line-height: 16px;
 margin-right: 385px;}
 .nav-menu{
     display: flex;
+    height: 23px;
+}
+.size{
+    margin-top: 46px;
 }
 .menu-choice { 
     display: inline-block;
@@ -193,8 +205,7 @@ margin-right: 385px;}
     font-weight: 400;
     margin-top: 0px;
 }
-.menu-choice:hover { 
-    
+.menu-choice:hover{ 
     color: #3D3D3D;
     font-size: 15px;
     font-weight: 700;
@@ -241,12 +252,13 @@ margin-right: 385px;}
 }
 .shop {
     display: flex;
+    justify-content: center;
 }
 .stranica {
     display: flex;
     gap: 10px;
     color: #3D3D3D;
-    justify-content: end;
+    justify-content: flex-end;
    
 }
 
@@ -266,6 +278,7 @@ margin-right: 385px;}
 .stranica-nomer{
     display: flex;
     justify-content: flex-end;
+    align-items: end;
     margin-top: 90px;
     
 }
@@ -296,12 +309,14 @@ letter-spacing: 0%;
 text-align: right;
 margin: -20px 20px 9px 119px ;
 }
-.container{
+.container{  
+    margin-top: 121px;
+    /* margin-left: 119px; */ 
+}
+.frame-1-2{
+    gap: 28px;
     display: flex;
     justify-content: center;
-    margin-top: 121px;
-    /* margin-left: 119px; */
-    gap: 28px;
 }
 .description1, .description2{
 color: #727272;
@@ -312,10 +327,20 @@ font-size: 14px;
     margin-top: 15px;
     text-align: center;
 }
+.button-shopnow1{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
 .shop-now1{
-    display: inline-block;
-    margin-top: 25px;
-    margin-left: 129px;
+    /* display: inline-block;
+   
+    margin-left: 129px; */
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 30px;
+ margin-top: 25px;
 }
 .stati{
     display: flex;
@@ -377,6 +402,7 @@ margin-left: 15px;}
 .nav-item{
      position: relative;  
 }
+.menu-choice:hover,
 .nav-item:hover .nav-link{
       border-bottom: 3px solid #46A358;
    text-shadow: 0.5px 0px 0px; 
@@ -619,7 +645,44 @@ cursor:pointer;
 .different-cards{
     margin-top: 13px;
 }
-.container4{
+.container2{
+    /* display: flex; */
+    justify-content: center;
     padding-top: 80px;
 padding-left: 120px;
 }
+footer{
+    display: flex;
+    justify-content: center;
+}
+.form-registration{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+.inform-place{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.details-information{
+    border: 1px solid #EAEAEA;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+}
+.enter-details{padding: 12px 224px 12px 14px;}
+.sign-in a{
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* .enter-details{
+    display: flex;
+    flex-direction: column;} */
+
+/* .details-information{
+    display: flex;
+flex-direction: column;
+row-gap: 16px;} */
