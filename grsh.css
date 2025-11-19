@@ -81,7 +81,7 @@ width: 100px;}
 }
 .slogan {
     max-width: 530px;
-    max-height: 140px;
+    
     font-size: 70px;
     padding-left: 40px;
     padding-top: 11px;
@@ -94,7 +94,6 @@ width: 100px;}
 }
 .description {
     max-width: 557px;
-    max-height: 45px;
 padding-top: 18px;
 padding-left: 43px;
 color: #727272;
@@ -120,16 +119,15 @@ font-weight: 400;
     margin-left: 41px;
 }
 
-.plant { 
+.plant{ 
     display: inline-block;
 max-width: 507px;
 max-height: 450px;
 margin-left: 93px;
 margin-right: 120px;
 }
-/* .text {display: inline-block;} */
-.categories {
-  
+
+.categories{
     display: inline-block;
     margin-top: 171px;
 margin-left: 135px;
@@ -686,3 +684,77 @@ footer{
     display: flex;
 flex-direction: column;
 row-gap: 16px;} */
+/* HTML: <div class="loader"></div> */
+
+@media screen and (max-width:1200px) {
+    .slogan{
+    font-size: 60px; 
+    max-width: 400px;
+    }
+    .description{
+    margin-top: 0px;
+    }
+}
+@media screen and (max-width:992px) {
+    .about{
+         display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 80px;
+    }
+    .nazva{
+         padding-top:0px;
+    margin-left: 43px;
+    }
+.slogan{
+    font-size: 50px; 
+  max-width: 100%;
+    padding-left: 40px;
+    padding-top: 11px;
+    }
+    .description{
+    margin-top: 0px;
+    max-width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+.about{
+       
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.plant{
+max-width: 407px;
+max-height: 350px;
+margin-left: 90px;
+margin-right: 20px;
+}
+.slogan{
+    font-size: 40px; 
+}
+}
+@media screen and (max-width:540px) {
+.plant{
+max-width: 257px;
+max-height: 200px;
+margin-left: 10px;
+margin-right: 10px;
+}
+.button-shop {
+    margin-top: 30px;
+    margin-left: 41px;
+}
+.slogan{
+    font-size: 35px; 
+    max-width: 4000px;
+   
+}
+.description{
+    margin-top: 0px;
+    max-width: 450px;
+    }
+    .about{
+        height: 75%;
+    }
+}
